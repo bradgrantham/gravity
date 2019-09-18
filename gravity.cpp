@@ -144,5 +144,5 @@ int main()
         vec3Add(finalVector, accumulatedSlice, finalVector);
     }
 
-    printf("%g\n", vec3Length(finalVector));
+    printf("acceleration is %g m*s^-2\n", vec3Length(finalVector));
 }
